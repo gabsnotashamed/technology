@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.h1-container{
+    background: #3695af;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+h1{
+    width: 89%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.9em;
+}
+.blog{
+    width: 89%;
+    margin: 10px auto;
+    padding: 7px;
+}
+.image{
+    width: 79%;
+    margin: 20px auto;
+}
+.image img{
+    width: 99%;
+}
+.marking{
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.text{
+    margin: 30px auto;
+    width: 80%;
+}
+h2{
+    color: #fb2425;
+    font-size: 2.3em;
+}
+.part-2{
+    font-weight: 700;
+    font-size: 2.01em;
+}
+#end{
+    color: #49b460;
+}
+
+footer{
+    background: grey;
+    box-shadow: 0 0 0 1px 3px  black;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
