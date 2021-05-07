@@ -1,0 +1,52 @@
+body{
+    font-family: 'Palanquin', sans-serif;
+    margin: 0;
+}
+@media (max-width: 386px){
+    /** Breakpoints */
+    .col-1{
+        width: 25%;
+    }
+    .col-2{
+        width: 50%; 
+    }
+    .col-3{
+        width: 75%;
+    }
+    .col-4{
+        width: 100%;
+    }   
+    header{
+        display: flex;
+        font-size: 1.5em;
+        background-color: #a61b1bab;
+    }
+    h1{
+        margin: 0;
+        padding: 17px;
+        color: #324029;
+        padding-right: 0;
+    }
+    header img{
+        position: absolute;
+        right: -0;
+        bottom: -0;
+    }
+
+    /*Introduction*/
+    #introduction{
+        display: flex;
+        background-color: #BF4974;
+        font-weight: bold;
+        font-style: italic;
+        color: #324029;
+    }
+    #introduction p{
+        padding: 14px;
+    }
+    div.title{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+}
