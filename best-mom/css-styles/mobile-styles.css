@@ -19,7 +19,7 @@ body{
     header{
         display: flex;
         font-size: 1.5em;
-        background-color: #a61b1bab;
+        background-color: #a34242c7;
     }
     h1{
         margin: 0;
@@ -27,16 +27,11 @@ body{
         color: #324029;
         padding-right: 0;
     }
-    header img{
-        position: absolute;
-        right: -0;
-        bottom: -0;
-    }
 
     /*Introduction*/
     #introduction{
         display: flex;
-        background-color: #BF4974;
+        background-color: #c7a3b0;
         font-weight: bold;
         font-style: italic;
         color: #324029;
@@ -44,9 +39,35 @@ body{
     #introduction p{
         padding: 14px;
     }
+    /*General*/
     div.title{
-        font-size: 1.3em;
+        font-size: 1.7em;
         font-weight: bold;
+        color: #324029;
     }
-    
+    div.escribe{
+        color: #324029;
+        opacity: 1;
+        padding-bottom: 12px;
+        padding-top: 1px;
+
+    }
+    .section-chicos{
+        padding: 15px;
+    }
+    /*Gabo*/
+    .gabo{
+        background-color: #ebd1d1;
+    }
+    .gabo img{
+        border-radius: 3px;;
+    }
+    /*Lau*/
+    .lau{
+        background-color: #eeedd4
+    }
+    /* Anna*/
+    .anna{
+        background-color: #eed4eb;
+    }
 }
